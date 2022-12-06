@@ -1,0 +1,76 @@
+/* Flex elements to align the page layout */
+body, div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Created a nav for the timer.  */
+nav {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    width: 101%;
+    height: 20px;
+    margin-top: 10px;
+
+}
+
+h2 {
+    margin-right: 20px;
+    text-align: end;
+    font-size: 20px;
+}
+
+
+.button {
+    width: 100px;
+    height: 50px;
+}
+
+/* White background color */
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/* Some styles to the h1 element. */
+h1 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+/* hover effect for the questions. */
+p:hover{
+    background-color:rgb(3, 3, 3);
+}
+
+/* styling for the questions. Including square color, font size, padding. */
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    border-collapse: collapse;
+    background-color: plum;
+    font-size: 18px;
+    padding: 5px;
+    margin: 4px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/* some css styling for the start quiz button. Fit conent to make the text take up most of the square. */
+#start, button {
+    width: fit-content;
+    height: fit-content;
+    overflow: auto;
+    clear: both;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    background-color: plum;
+    color: rgb(255, 255, 255);
+}
+
+button {
+    margin: 10px;
+    width: 200px;
+}

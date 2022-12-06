@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- linking style sheet. -->
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <title>Multiple Choice Quiz</title>
+</head>
+<body>
+         <!--Added the timer at the top of the screen. Put in nav element.  -->
+        <nav>
+        <h2 id="timer"></h2>
+        </nav>
+        <!-- Header for Quiz Intro -->
+        <h1>Timed Multiple Choice Quiz</h1>
+        
+    
+
+   <div>
+       <h1 id="question"></h1>   
+    <div id="quiz">
+        <!-- Start button element in button tag -->
+        <button id="start"> Start Quiz </button>
+        <!-- Questions are <P> elements. Links to functions to check answer and what the correct choice is. -->
+        
+        <p id="choice1" onclick="checkAnswer('choice1')"></p>
+        <p id="choice2" onclick="checkAnswer('choice2')"></p>
+        <p id="choice3" onclick="checkAnswer('choice3')"></p>
+        <p id="choice4" onclick="checkAnswer('choice4')"></p>
+    </div>
+
+    </div>
+    <!-- linking script -->
+    <script src="assets/script/script.js"></script>
+
+</body>
+</html>
